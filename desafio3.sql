@@ -3,4 +3,3 @@ SELECT JOB_TITLE AS Cargo,
 FROM hr.jobs
 ORDER BY (MAX_SALARY - MIN_SALARY),
     Cargo;
-    
