@@ -14,4 +14,4 @@ SELECT CONCAT(FIRST_NAME, ' ', LAST_NAME) AS `Nome completo`,
     ) AS "Departamento"
 FROM employees
 ORDER BY `Nome completo` DESC,
-    Cargo;
+    Cargo ASC;
